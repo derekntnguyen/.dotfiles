@@ -1,0 +1,39 @@
+{
+    "workbench.colorTheme": "Horizon Extended",
+    "editor.bracketPairColorization.enabled": true,
+    "python.analysis.completeFunctionParens": true,
+    "editor.formatOnSave": true,
+    "python.formatting.provider": "black",
+    "explorer.confirmDelete": false,
+    "jupyter.askForKernelRestart": false,
+    "git.enableSmartCommit": true,
+    "python.linting.pylintArgs": [
+        "--errors-only",
+        "--generated-members=numpy.* ,torch.* ,cv2.* , cv.*"
+    ],
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "r.rterm.windows": "C:/Users/derek/AppData/Local/Programs/Python/Python310/Scripts/radian.exe",
+    "files.associations": {
+        "*.rmd": "markdown",
+        "*.R": "r"
+    },
+    "autoDocstring.docstringFormat": "numpy",
+    "editor.wordWrap": "on",
+    "r.plot.useHttpgd": true,
+    // Use active terminal for all commands, rather than creating a new R terminal
+    "r.alwaysUseActiveTerminal": true,
+    // Use bracketed paste mode
+    "r.bracketedPaste": true,
+    // Enable R session watcher
+    "r.sessionWatcher": true,
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "[markdown]": {
+        "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+    },
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    "git.enableCommitSigning": true,
+    "workbench.settings.editor": "json"
+}
